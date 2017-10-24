@@ -1,5 +1,9 @@
-﻿wmic useraccount where Name= 'Administrador' set PasswordExpires=false
-
+﻿   <#
+    Este debe ser introducido en CMD para eliminar caducidad de contraseña de Administrador. SOLO para laboratorio
+    wmic useraccount where Name='Administrador' set PasswordExpires=false
+    #>
+    
+    #Elimina la interfaz gráfica
 Uninstall-WindowsFeature Server-Gui-Mgmt-Infra 
 
     #Direccionamiento IP
