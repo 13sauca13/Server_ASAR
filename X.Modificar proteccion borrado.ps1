@@ -1,0 +1,1 @@
+Get-ADOrganizationalUnit -Identity "OU=PARA_DELEGAR,OU=USUARIOS,DC=DOM12,DC=LOCAL" | Set-ADOrganizationalUnit -ProtectedFromAccidentalDeletion $falseRemove-ADOrganizationalUnit -Identity "OU=PARA_DELEGAR,OU=USUARIOS,DC=DOM12,DC=LOCAL"
