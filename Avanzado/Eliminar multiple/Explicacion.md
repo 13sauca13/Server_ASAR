@@ -1,4 +1,4 @@
-###This script will delete all specific users that are contained on the users txt file from the computers listed in the computers txt file
+### This script will delete all specific users that are contained on the users txt file from the computers listed in the computers txt file
 
 Requirements:
 
